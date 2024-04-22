@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "HelveticaBold";
+  src: url(./Assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr\ Bold/);
+}
+
+@font-face {
+  font-family: "HelveticaMedium";
+  src: url(./Assets/fonts/HelveticaNeueCyr/HelveticaNeueCyrMedium/HelveticaNeueCyrMedium.ttf)
+    format("truetype");
+}
+
+* {
+  font-family: "HelveticaMedium";
+}
+
+ul > li {
+  margin: 0 1vw 0 1vw;
+  list-style-type: none;
+  color: white;
+  font-weight: 400;
+}
+
+.sign-in-btn {
+  background-color: rgba(181, 177, 168, 0.5);
+  font-weight: 400;
+}
+
+.headerHeading {
+  font-size: 11vh;
+  font-weight: 900;
+}
+
+.rightImage {
+  margin-top: 15vh;
+  margin-left: -22vw;
+}
+
+.headerContainer {
+  background-image: url("./Assets/images/01-\ headerbackgroundimg.png");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paymentDiv {
+  margin-top: 30vh;
+}
+
+.cards {
+  margin-top: 10vh;
+}
+
+.slackInvoiceImage {
+  margin-top: -25px;
+  width: 54vw;
+  height: 442px;
+  margin-left: -2.5vw;
+}
+
+.gpayPhoneImage {
+  margin-top: -174px;
+  margin-left: 11vw;
+  height: 532px;
+  width: 291px;
+}
+
+.warbyParkerImage {
+  margin-top: -206px;
+}
+
+.fraudAndRiskImage {
+  margin-top: -110px;
+  margin-left: -32px;
+}
+
+.blueContainer {
+  background-color: #0a2540;
+}
+
+.developersHeading {
+  color: #00d4ff;
+}
+
+.blueButton {
+  background-color: #00d4ff;
+}
+
+.desginedForDesginersContainer {
+  padding: 180px 0px 20px 0px;
+}
+
+.toolsContainer {
+  padding: 20px 0px 180px 0px;
+}
+.btntext {
+  color: #00d4ff;
+}
+.col-6 > p {
+  font-size: small;
+  font-weight: 300;
+}
+
+.toolsContainer {
+  margin-top: -170px;
+}
+
+.terminal_1Image {
+  margin-left: 5.6vw;
+}
+
+.whyStripeText {
+  color: #635bff;
+}
+
+.whiteContainer {
+  padding: 180px 0px;
+}
+
+.globalScaleDiv {
+  padding: 180px 0px;
+}
+
+.lightWeightedText {
+  font-size: small;
+  font-weight: lighter !important;
+}
+.buttonsDiv {
+  margin-top: -35px;
+}
+
+.colorfulContainer {
+  margin-top: -240px;
+}
+
+.leftSide {
+  margin-top: -50px;
+}
+
+.topRightImage {
+  margin-left: 10vw;
+}
+
+.bottomRightImage {
+  margin-left: 16vw;
+}
+
+.topLeftImage {
+  margin-left: 4vw;
+}
+
+.bottomRow {
+  margin-top: -15px;
+}
+
+.col > ul > li {
+  color: black;
+}
+
+.col > ul {
+  text-decoration: none;
+  margin-left: -4vw;
+}
+
+.nav li:hover {
+  color: #f8f9fa; /* Change color on hover */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.headerHeading:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.btn-dark:hover {
+  transform: scale(1.1); /* Grow on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.font-weight-bold:hover {
+  transform: scale(1.1); /* Grow on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.blueButton:hover {
+  background-color: #007bff; /* Change color on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.buttonsDiv .btn:hover {
+  transform: scale(1.1); /* Grow on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
